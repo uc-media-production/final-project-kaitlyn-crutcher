@@ -1,7 +1,8 @@
 /* homepage */
-.logo {
-    background-color: #fe0000;
-}
+header {
+    overflow: hidden;
+    padding: 3rem;
+  }
 
 
 
