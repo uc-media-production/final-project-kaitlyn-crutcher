@@ -1,5 +1,7 @@
 /* homepage */
-
+header{ 
+    background-color: red;
+}
 
 .below img {
     width: 100%;
@@ -24,11 +26,11 @@
     display: inline-block;
   }
    
-  .color-choose input[type="radio;"] {
+  .color-choose input[type="radio"] {
     display: none;
   }
    
-  .color-choose input[type="radio;"] + label span {
+  .color-choose input[type="radio"] + label span {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -38,46 +40,46 @@
     border-radius: 50%;
   }
    
-  .color-choose input[type="radio;"] + label span {
+  .color-choose input[type="radio"] + label span {
     border: 2px solid #FFFFFF;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
   }
    
-  .color-choose input[type="radio;"]#red + label span {
+  .color-choose input[type="radio"]#red + label span {
     background-color: #FF0000;
   }
-  .color-choose input[type="radio;"]#hydro + label span {
+  .color-choose input[type="radio"]#hydro + label span {
     background-color: #1E90FF;
     }
-  .color-choose input[type="radio;"]#black + label span {
+  .color-choose input[type="radio"]#black + label span {
     background-color: #000000;
   }
-.color-choose input[type="radio;"]#green + label span {
+.color-choose input[type="radio"]#green + label span {
   background-color: #00FF00;
 }
-.color-choose input[type="radio;"]#orange + label span {
+.color-choose input[type="radio"]#orange + label span {
   background-color: #FFA500;
 }
-.color-choose input[type="radio;"]#white + label span {
+.color-choose input[type="radio"]#white + label span {
   background-color: #FFFFFF;
 }
-.color-choose input[type="radio;"]#mint + label span {
+.color-choose input[type="radio"]#mint + label span {
   background-color: #63e5b5;
 }
-.color-choose input[type="radio;"]#titantium + label span {
+.color-choose input[type="radio"]#titantium + label span {
   background-color: #878681;
 }
-.color-choose input[type="radio;"]#ocean + label span {
+.color-choose input[type="radio"]#ocean + label span {
   background-color: #2B65EC;
 }
-.color-choose input[type="radio;"]#navy + label span {
+.color-choose input[type="radio"]#navy + label span {
   background-color: #000080;
 }
-.color-choose input[type="radio;"]#burgundy + label span {
+.color-choose input[type="radio"]#burgundy + label span {
   background-color: #800020;
 }
    
-  .color-choose input[type="radio;"]:checked + label span {
+  .color-choose input[type="radio"]:checked + label span {
     background-image: url(images/check-icn.svg);
     background-repeat: no-repeat;
     background-position: center;
