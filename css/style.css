@@ -1,10 +1,4 @@
 /* homepage */
-header {
-    overflow: hidden;
-    padding: 3rem;
-  }
-
-
 
 
 .below img {
@@ -20,7 +14,7 @@ header {
     opacity: 1;
   }
 
-  	
+
 /* Product Color */
 .product-color {
     margin-bottom: 30px;
