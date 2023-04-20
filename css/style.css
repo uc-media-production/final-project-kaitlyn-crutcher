@@ -1,11 +1,11 @@
 /* homepage */
-header {
-    background-color: #7e7e7e;
+.header {
+    background-color: #fe0000;
 }
 
 
 
-.logo {
+.h3 {
     font: 100;
 }
 
