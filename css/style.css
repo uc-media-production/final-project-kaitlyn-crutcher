@@ -30,7 +30,7 @@ header{
     display: none;
   }
    
-  .color-choose input[type="radio"] + label span {
+  .color-choose li {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -39,19 +39,19 @@ header{
     cursor: pointer;
     border-radius: 50%;
   }
-   
-  .color-choose input[type="radio"] + label span {
+
+.color-choose li  {
     border: 2px solid #FFFFFF;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
   }
-   
-  .color-choose input[type="radio"]#red + label span {
+
+  .color-choose li[data-image="red"]  {
     background-color: #FF0000;
   }
-  .color-choose input[type="radio"]#hydro + label span {
+.color-choose li[data-image="hydro"] {
     background-color: #1E90FF;
     }
-  .color-choose input[type="radio"]#black + label span {
+.color-choose li[data-image="black"] {
     background-color: #000000;
   }
 .color-choose input[type="radio"]#green + label span {
