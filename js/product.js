@@ -8,5 +8,4 @@ $(document).ready(function() {
         $('.below img[data-image = ' + cartColor + ']').addClass('active');
         $(this).addClass('active');
     });
-   
-  });
+});

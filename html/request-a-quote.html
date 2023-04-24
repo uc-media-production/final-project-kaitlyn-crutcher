@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <title>Request a Quote</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta name="description" content="request a quote">
     <meta name="keywords" content="KC Carts, Golf Cart, Bintelli, Icon, Epic">
 </head>
@@ -18,14 +18,14 @@
                 <li><a href="homepage.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="in-stock.html">In Stock</a></li>
-                <li><a href="financing.html">Financing</a></li>
                 <li><a href="request-a-quote.html">Request a Quote</a></li>
             </ul>
         </div>
     </header>
 
     <main>
+                   
+        <img src="../img/other-pages/ocean-bintelli.jpg" alt="ocean bintelli" height="auto" width="100%">
         <div class="quote">
             <h1>Request a Quote</h1>
             <p>Thank you for your interest in Bintelli Electric Vehicles! 
@@ -35,30 +35,29 @@
                 At times, email replies may go to a junk mail or spam folder, so if you do not see a reply from us within 24 hours, please check these folders in your email account. 
                 We look forward to hearing from you!</p>
         </div>
-        <div class="container">
+        <div class="contact-container">
             <form action="mailto:info@kccarts.net" method="post">
-                <!--add "this field is required"-->
                 <!--try to make sure it sends email correctly-->
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" required>
+              <input type="text" id="fname" name="firstname" style="width:500px" required>
           
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" required>
+              <input type="text" id="lname" name="lastname" style="width:500px" required>
 
               <label for="email">Your Email</label>
-              <input type="text" id="email" name="email" required>
+              <input type="text" id="email" name="email" style="width:500px" required>
 
               <label for="subject">Email Subject</label>
-              <input type="text" id="subject" name="emailsubject" required>
+              <input type="text" id="subject" name="emailsubject" style="width:500px" required>
 
               <label for="phone">Your Phone Number</label>
-              <input type="text" id="phone" name="phonenumber" required>
+              <input type="text" id="phone" name="phonenumber" style="width:500px" required>
 
               <label for="message">Your Message</label>
-              <textarea id="message" name="message" style="height:200px" required></textarea>
+              <textarea id="message" name="message" style="width:500px" required></textarea>
 
               <label for="date">Today's Date</label>
-              <input type="date" id="date" placeholder="mm/dd/yyyy" required>
+              <input type="date" id="date" placeholder="mm/dd/yyyy" style="width:500px" required>
 
               <input type="checkbox" id="checkbox" name="checkbox" required>
               <label for="checkbox">By checking this box and submitting your information, you are granting us permission to email you. You may unsubscribe at any time.</label>
@@ -66,39 +65,53 @@
               <input type="button" value="Submit">
             </form>
           </div>
-          <div class="hours-container">
+          <div class="business-hours">
             <h2>Business Hours</h2>
+            <div class="business">
+            <div class="monday">
             <ul>
                 <li><h3>Monday - Saturday</h3></li>
                 <li>9:00 am - 5:00 pm</li>
+            </ul>
+            </div>   
+            <div class="sunday"> 
+            <ul>
                 <li><h3>Sunday</h3></li>
                 <li>Closed</li>
             </ul>
             </div>
+            </div>
+            </div>
     </main>
     <footer>
-        <div class="contact">
+        <div class="address">
             <ul>
+                <li><h1>Address</h1></li>
                 <li><h3>KC CARTS</h3></li>
                 <li>562 Paint Lick Road</li>
                 <li>Berea, KY 40403</li>
                 <li>United States</li>
+            </ul> 
+        </div>
+        <div class="contact">
+            <ul>
+                <li><h1>Contact</h1></li>
                 <li><a href="tel:8599864544"><u>(859)986-4544</u></a></li>
                 <li><a href="mailto:info@kccarts.net"><u>info@kccarts.net</u></a></li>
             </ul>
         </div>
         <div class="footer-navigation">
             <ul>
+                <li><h1>Navigation</h1></li>
                 <li><a href="homepage.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="in-stock.html">In Stock</a></li>
-                <li><a href="financing.html">Financing</a></li>
                 <li><a href="request-a-quote.html">Request a Quote</a></li>
             </ul>
         </div>
         <div id="facebook">
-            <a href="https://www.facebook.com/people/KC-Carts/100069844383751/"><img src="/Users/kaitlyn.crutcher/Documents/GitHub/final-project-kaitlyn-crutcher/img/other-pages/facebook-icon.png" height="100px" width="100px"></a>
+            <h1>Facebook</h1>
+            <a href="https://www.facebook.com/people/KC-Carts/100069844383751/"><img src="../img/other-pages/facebook-icon.png" height="100px" width="100px"></a>
         </div>
     </footer>
 </body>
