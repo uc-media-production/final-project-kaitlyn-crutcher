@@ -1,11 +1,7 @@
 	
 $(document).ready(function() {
- 
-    $('.color-choose input').on('click', function() {
-        var cartColor = $(this).attr('data-image');
-   
-        $('.active').removeClass('active');
-        $('.below img[data-image = ' + cartColor + ']').addClass('active');
-        $(this).addClass('active');
+    $('.color-choose li').on('click', function() {
+        const cartColor = $(this).attr('data-image');
+        $('#product-image').attr('src', "../img/products/beyondfour/" + cartColor + ".jpg");
     });
 });

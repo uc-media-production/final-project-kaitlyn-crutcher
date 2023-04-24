@@ -1,75 +1,6 @@
-/* -----------HEADER---------- */
+/* homepage */
 header{ 
-    background-color: rgb(45, 45, 45);
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    padding: 10px 10px;
-}
-.logo{
-  color: #FFA500;
-  font-size: 25px;
-}
-.navigation ul li{
-  display: inline;
-  background-color: white;
-  text-decoration: black;
-  padding: 8px;
-  border-radius: 10px;
-  margin-left: 20px;
-}
-.navigation ul{
-  float: right;
-}
-.navigation li{
-  float: left;
-}
-.navigation ul li a:link{
-  text-decoration: none;
-  color: black;
-}
-.navigation ul li a:visited{
-  text-decoration: none;
-  color: black
-}
-.navigation ul li:hover{
-  background-color:rgb(189, 189, 189);
-  text-decoration: none;
-  color: black;
-}
-.navigation ul li:last-of-type{
-  background-color: #FFA500;
-}
-.navigation ul li:hover:last-of-type{
-  background-color: #ffdd9e;
-}
-
-/*----------FOOTER----------*/
-footer{
-  background-color: rgb(45, 45, 45);
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 10px 10px;
-}
-.address ul li{
-  padding: 5px;
-}
-.contact ul li a{
-  color: white;
-}
-.contact ul li{
-  padding: 5px;
-}
-.footer-navigation ul li a{
-  text-decoration: none;
-  color: white;
-}
-.footer-navigation ul li{
-  padding: 5px;
-}
-footer h1{
-  color: #FFA500;
-  font-size: 20px;
+    background-color: red;
 }
 
 /*----------HOME----------*/
@@ -308,9 +239,11 @@ span h1{
   .color-choose div {
     display: inline-block;
   }
-  .color-choose li {
+   
+  .color-choose input[type="radio"] {
     display: none;
   }
+   
   .color-choose li {
     display: inline-block;
     width: 40px;
@@ -319,10 +252,6 @@ span h1{
     vertical-align: middle;
     cursor: pointer;
     border-radius: 50%;
-  }
-  .color-choose li h4{
-    font-size: 15px;
-    line-height: 120px;
   }
 .color-choose li  {
     border: 2px solid #FFFFFF;
@@ -338,32 +267,32 @@ span h1{
 .color-choose li[data-image="black"] {
     background-color: #000000;
   }
-  .color-choose li[data-image="green"] {
-    background-color: #00FF00;
+.color-choose input[type="radio"]#green + label span {
+  background-color: #00FF00;
 }
-.color-choose li[data-image="orange"] {
+.color-choose input[type="radio"]#orange + label span {
   background-color: #FFA500;
 }
-.color-choose li[data-image="white"] {
+.color-choose input[type="radio"]#white + label span {
   background-color: #FFFFFF;
 }
-.color-choose li[data-image="mint"] {
+.color-choose input[type="radio"]#mint + label span {
   background-color: #63e5b5;
 }
-.color-choose li[data-image="titantium"] {
+.color-choose input[type="radio"]#titantium + label span {
   background-color: #878681;
 }
-.color-choose li[data-image="ocean"] {
+.color-choose input[type="radio"]#ocean + label span {
   background-color: #2B65EC;
 }
-.color-choose li[data-image="navy"] {
+.color-choose input[type="radio"]#navy + label span {
   background-color: #000080;
 }
-.color-choose li[data-image="burgundy"] {
+.color-choose input[type="radio"]#burgundy + label span {
   background-color: #800020;
 }
    
-  .color-choose li {
+  .color-choose input[type="radio"]:checked + label span {
     background-image: url(images/check-icn.svg);
     background-repeat: no-repeat;
     background-position: center;
